@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Josefin+Sans&family=Lato:wght@100&family=Montserrat:ital,wght@1,300&family=Mouse+Memoirs&family=Poppins:wght@300&family=Rubik:ital@1&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+header nav {
+    background: url('https://scarletviolet.pokemon.com/images/patterns/pattern-grey.jpg');
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-bottom: 3px solid gold;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    font-family: none;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    /* padding: 0px; */
+}
+
+header nav ul li {
+    padding: 0px 30px;
+    font-size: 25px;
+}
+
+header nav ul li:hover {
+    color: rgb(199, 170, 7);
+    cursor: pointer;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#li {
+    background-color: black;
+    padding: 15px;
+    color: gold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#li img {
+    position: absolute;
+    bottom: -15px;
+} 
+
+main {
+    background: url('https://scarletviolet.pokemon.com/images/patterns/pattern-white.jpg');
+    padding-top: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.accordion-item {
+    margin: 10px;
+    color: rgb(199, 170, 7) !important;
+}
+
+.accordion-button {
+    color: white !important; 
+    background-color: #3d3938 !important;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+.buttons h5 {
+    padding: 0px 10px;
+    margin: 0;
+    color: #3d3938;
+}
+
+.buttons button {
+    border-radius: 5px;
+    background-color: inherit; 
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #3d3938;
+}
+
+.buttons button:active {
+    background-color: whitesmoke;
+    color: rgb(77, 75, 75);
+}
+
+.buttons button i {
+    font-size: 17px;
+}
