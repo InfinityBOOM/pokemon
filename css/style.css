@@ -75,7 +75,7 @@ main {
 
 .box {
     width: 350px;
-    min-height: 400px;
+    height: 400px;
     margin: 30px;
     padding: 10px;
     text-align: center;
@@ -262,3 +262,38 @@ main {
         margin: 10px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .img {
+        width: 90%;
+        height: auto;
+    }
+
+    .box {
+        height: auto;
+    }
+
+    .box h1 {
+        font-size: 25px;
+    }
+
+    .descOfPoke {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .movesOfPoke h1 {
+        margin: 0;
+    }
+
+    .modalBody {
+        width: 250px;
+    }
+
+    .imgOfPoke {
+        width: 150px;
+        height: 150px;
+        padding: 0;
+    }
+} 
